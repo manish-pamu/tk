@@ -30,17 +30,17 @@ menubutton .menubar.options_tab \
                    #initialize and configure the drop-down menu
                    menu .menubar.options_tab.menu
 
-												#config a radio button
-												.menubar.options_tab.menu add radiobutton \
-																										  -label "Reconcile" \
-																											-accelerator "^R" \
-																											-command {bell}
+			#config a radio button
+			.menubar.options_tab.menu add radiobutton \
+						      -label "Reconcile" \
+						      -accelerator "^R" \
+						      -command {bell}
 
-												#create a check button
-												.menubar.options_tab.menu add checkbutton \
-																											-label "Duplicate" \
-																											-accelerator "^D" \
-																											-command {bell}
+			#create a check button
+			.menubar.options_tab.menu add checkbutton \
+						      -label "Duplicate" \
+						      -accelerator "^D" \
+						      -command {bell}
 
 
 
