@@ -5,8 +5,8 @@ wm title . "Menubar"
 #set window aspect ratio
 #width  - 800
 #height  - 500
-#offset from left  - 500
-#offset from right  - 300
+#offset from left side - 500
+#offset from top side - 300
 wm geometry . 800x500+500+300
 
 #variables:::
